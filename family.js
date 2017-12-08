@@ -1,3 +1,5 @@
+'use strict';
+
 class Family {
     static get parent_names() {
         return ['mom', 'dad'];

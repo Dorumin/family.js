@@ -23,7 +23,7 @@ The constructor can take one plain object parameter, which can hold the followin
 ```javascript
 family.kill(member);
 ```
-where `member` is one of dad, mom, son, pr daughter.
+where `member` is one of dad, mom, son, or daughter.
 
 Violently murders a member of the family, you monster. Returns true if the execution succeded, or false if it cannot be completed because the member is missing.
 
