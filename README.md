@@ -25,11 +25,11 @@ family.kill(member);
 ```
 where `member` is one of dad, mom, son, pr daughter.
 
-Violently murders a member of the family, you monster. Returns true if the execution succeded, or false if it cannot be completed, either because the member is missing, or it would reduce the children or parent list to zero.
+Violently murders a member of the family, you monster. Returns true if the execution succeded, or false if it cannot be completed because the member is missing.
 
 #### Add a family member
 
-###### adopt
+##### adopt
 ```javascript
 family.adopt(child);
 ```
@@ -37,7 +37,7 @@ where `child` is either son or daughter.
 
 Adopts a child to the current family. Stricter alternative to `add()`, `adopt()` throws an error if `child` is not a child name. There is no parent counterpart.
 
-###### add
+##### add
 ```javascript
 family.add(member);
 ```
