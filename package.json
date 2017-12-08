@@ -1,18 +1,19 @@
 {
-    "name": "Family",
-    "version": "0.0.1",
-    "description": "Gives you the power over a family",
-    "main": "family.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Dorumin/Family.git"
-    },
-    "keywords": [
-      "family"
-    ],
-    "author": "Dorumin",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Dorumin/Family/issues"
-    }
-  }
+  "name": "family.js",
+  "version": "0.0.1",
+  "description": "Gives you the power over a family",
+  "main": "family.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dorumin/Family.git"
+  },
+  "keywords": [
+    "family"
+  ],
+  "author": "Dorumin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dorumin/Family/issues"
+  },
+  "homepage": "https://github.com/Dorumin/Family#readme"
+}

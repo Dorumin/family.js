@@ -6,7 +6,7 @@ A library to form and break a family.
 
 #### Require the module
 ```javascript
-const Family = require('family');
+const Family = require('family.js');
 ```
 
 #### Creating a family
