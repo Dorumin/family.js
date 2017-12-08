@@ -38,7 +38,7 @@ class Family {
                     }
                 } else if (Family.children_names.includes(member)) {
                     if (props.children.length < 2) {
-                        props.parents.push(member);
+                        props.children.push(member);
                     }
                 }
             });
