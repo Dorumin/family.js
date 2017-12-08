@@ -59,8 +59,7 @@ class Family {
         let i = table.indexOf(member);
         if (i == -1) return false;
         if (this.verbose && table.length == 1) {
-            console.warn('A family cannot have no children/parents! It must have at least one of both to be correctly converted to emoji.');
-            return false;
+            console.warn('A family cannot have no children/parents in order to be correctly converted to emoji!');
         }
         table.splice(i, 1);
         return true;
@@ -105,7 +104,7 @@ class Family {
         this.kill(child);
         this.kill(parent);
         return new Family({
-            children: [child],
+            children: child ? [child] : [],
             parents: [parent]
         });
     }
