@@ -14,10 +14,10 @@ const Family = require('family');
 let family = new Family();
 ```
 The constructor can take one plain object parameter, which can hold the following keys:
-**verbose**: Throws more stuff in your console.
-**parents**: A list of parents for the family. If missing, will default to mom and dad.
-**children**: A list of children for the family. If missing, will default to son and daughter.
-**members**: A list of members for the family, if you're lazy to split the names. Will default to mom, dad, son, and daughter.
+- **verbose**: Throws more stuff in your console.
+- **parents**: A list of parents for the family. If missing, will default to mom and dad.
+- **children**: A list of children for the family. If missing, will default to son and daughter.
+- **members**: A list of members for the family, if you're lazy to split the names. Will default to mom, dad, son, and daughter.
 
 #### Kill family member
 ```javascript
